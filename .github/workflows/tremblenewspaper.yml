@@ -3,8 +3,7 @@ name: tremblenewspaper
 on:
   workflow_dispatch:
   schedule:
-    - cron: '21 4/6 * * *'
-
+    - cron: '1 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,16 +11,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: tremblenewspaper
         env:
-          y6: ${{ secrets.y6 }}
+          zsao3: ${{ secrets.zsao3 }}
         run: |
-          echo $y6 | jq -r .rxd9122 | /bin/bash
-          echo $f4 | jq -r .xrz6420 | /bin/bash
-          echo $ehfy66 | jq -r .z8939 | /bin/bash
-          echo $nfn8623 | jq -r .ny12 | /bin/bash
-          echo $tk77 | jq -r .wi669 | /bin/bash
-          echo $o9 | jq -r .vrq52 | /bin/bash
-          echo $ksyzn1 | jq -r .c36 | /bin/bash
-          echo $qbk5 | jq -r .z6 | /bin/bash
-          echo $dp06447 | jq -r .axaix384 | /bin/bash
-          echo $mr87 | jq -r .pww570 | /bin/bash
+          echo $zsao3 | jq -r .es01 | /bin/bash
+          echo $m789 | jq -r .k6 | /bin/bash
+          echo $cfe11166 | jq -r .kcueg1 | /bin/bash
+          echo $bej0633 | jq -r .zsbfq4772 | /bin/bash
+          echo $dvk116 | jq -r .pg854 | /bin/bash
+          echo $blpsv44043 | jq -r .dri25 | /bin/bash
+          echo $pixf705 | jq -r .p40 | /bin/bash
+          echo $pzgh14553 | jq -r .sn6948 | /bin/bash
+          echo $wf0 | jq -r .yhlx9828 | /bin/bash
+          echo $fo641 | jq -r .kotp9 | /bin/bash
+          echo $muzc4091 | jq -r .w07 | /bin/bash
 
